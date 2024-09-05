@@ -22,3 +22,4 @@ atproto
 requests
 bs4
 python-telegram-bot
+cryptography>=43.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
