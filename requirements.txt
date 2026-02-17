@@ -18,7 +18,8 @@ validators
 pytest
 pytest-cov
 colorama
-atproto
+atproto>=0.0.65
 requests
 bs4
 python-telegram-bot
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
